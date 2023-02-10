@@ -1,0 +1,224 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj",
+        "projectName": "PPM.DAL",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj",
+        "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+        "projectName": "PPM.IEntityOperation",
+        "projectPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+        "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj"
+              },
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj",
+        "projectName": "PPM.MODEL",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj",
+        "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
