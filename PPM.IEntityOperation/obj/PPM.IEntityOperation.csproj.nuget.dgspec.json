@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {}
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {}
   },
   "projects": {
     "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
@@ -81,14 +81,14 @@
         }
       }
     },
-    "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
         "projectName": "PPM.IEntityOperation",
-        "projectPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using PPM.MODEL;
 using PPM.DAL;
 using PPM.DOMAIN;

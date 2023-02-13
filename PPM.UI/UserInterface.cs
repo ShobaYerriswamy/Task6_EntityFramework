@@ -254,15 +254,15 @@ namespace UserInterface
                                                 int EMPId = Convert.ToInt32(Console.ReadLine());
                                                 if (employeeDal.ExistsInEmployeeTable (EMPId))
                                                 {
-                                                    if (!projectDal.IfExistsInProjectsWithEmployees(PROJId,EMPId ))
-                                                    {
+                                                    // if (!projectDal.IfExistsInProjectsWithEmployees(PROJId,EMPId ))
+                                                    // {
                                                         projectManager.AddEmployeesToProject(PROJId, EMPId);
                                                         Console.WriteLine("Succesfully Added..");
-                                                    }
-                                                    else
-                                                    {
-                                                        Console.WriteLine("Employee Already Exists With this Id");
-                                                    }
+                                                    // }
+                                                    // else
+                                                    // {
+                                                    //     Console.WriteLine("Employee Already Exists With this Id");
+                                                    // }
                                                 }
                                                 else
                                                 {
@@ -291,15 +291,15 @@ namespace UserInterface
                                             {
                                                 Console.WriteLine("Enter the Id of the Employee to Delete from Project");
                                                 int EMPId1 = Convert.ToInt32(Console.ReadLine());
-                                                if (projectDal.IfExistsInProjectsWithEmployees(PROJId1,EMPId1 ))
-                                                {
+                                                // if (projectDal.IfExistsInProjectsWithEmployees(PROJId1,EMPId1 ))
+                                                // {
                                                     projectManager.DeleteEmployeesFromProject(PROJId1,EMPId1);
                                                     Console.WriteLine("Succesfullu Deleted");
-                                                } 
-                                                else
-                                                {
-                                                    Console.WriteLine("This Employee Not Exists In Project");
-                                                }
+                                                // } 
+                                                // else
+                                                // {
+                                                //     Console.WriteLine("This Employee Not Exists In Project");
+                                                // }
                                             }
                                             else
                                             {
@@ -695,10 +695,10 @@ namespace UserInterface
                                                             goto deleteRoleById;
                                                         }
                                                     }
-                                                    // if (roleDal.ExistsRoleInEmployeeTable(deleteRoleById))
-                                                    // {
-                                                    //     Console.WriteLine("Looks like Employee consists this Role ID, Delete Employee with this Role Id First");
-                                                    // }
+                                                    if (roleDal.ExistsRoleInEmployeeTable(deleteRoleById))
+                                                    {
+                                                        Console.WriteLine("Looks like Employee consists this Role ID, Delete Employee with this Role Id First");
+                                                    }
                                                     else
                                                     {
                                                         roleManager.DeleteRole(deleteRoleById);

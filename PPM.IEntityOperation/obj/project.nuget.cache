@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XDDIyajXCARfTq4cCbNjT87JXNKEmi6pZLjldH/UBs+rrW1PFdA7cAHwgWR/a2nPe/FBLcRYB12EdEWDyt9hzQ==",
+  "dgSpecHash": "46tTd1g8t+RNKT1zDU5IHoOFvMr0RSbsYWTVLLTiCxrQIMnAxwrLQXLRdZmgxG+0ZzXedC/CXT4Ch3kWTMeriA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+  "projectFilePath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SMandlole\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\SMandlole\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

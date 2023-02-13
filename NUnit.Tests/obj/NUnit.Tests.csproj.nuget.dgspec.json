@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\NUnit.Tests\\NUnit.Tests.csproj": {}
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\Nunit.Tests\\Nunit.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\NUnit.Tests\\NUnit.Tests.csproj": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\Nunit.Tests\\Nunit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\NUnit.Tests\\NUnit.Tests.csproj",
-        "projectName": "NUnit.Tests",
-        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\NUnit.Tests\\NUnit.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\Nunit.Tests\\Nunit.Tests.csproj",
+        "projectName": "Nunit.Tests",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\Nunit.Tests\\Nunit.Tests.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\NUnit.Tests\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\Nunit.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

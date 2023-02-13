@@ -37,7 +37,7 @@ public class ProjectManager : IEntityOperationProject
 
     public void DeleteEmployeesFromProject (int projectId, int employeeId)
     {
-        projectDal.DeleteEmployeeFromProject(projectId, employeeId);
+        projectDal.DeleteEmployeesFromProject(projectId, employeeId);
     }
 
     public void ViewAllProjects()
