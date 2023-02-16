@@ -194,7 +194,7 @@ public class ProjectDal
                     Console.WriteLine($"Name of the Project - {context.Projects.Find(projectId).ProjectName}");
                     foreach (var employee in employeeList)
                     {
-                        Console.WriteLine($" Employee Id - {employee.EmployeeId}, Employee Name - {employee.FirstName}, Role Nmae - {employee.Role.RoleName}");
+                        Console.WriteLine($" Employee Id - {employee.EmployeeId}, Employee Name - {employee.FirstName}, Role Name - {employee.Role.RoleName}");
                     }
                 }
                 else 
