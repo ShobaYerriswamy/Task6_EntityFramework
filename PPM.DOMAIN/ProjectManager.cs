@@ -30,6 +30,11 @@ public class ProjectManager : IEntityOperationProject
         projectDal.DeleteProjectFromTable(projectId);
     }
 
+    public void ViewAllEmployeesInProjectById(int projectId)
+    {
+        projectDal.DisplayAllEmployeesInProjectById(projectId);
+    }
+
     public void AddEmployeesToProject (int projectId, int employeeId)
     {
         projectDal.AddEmployeesToProject(projectId, employeeId);

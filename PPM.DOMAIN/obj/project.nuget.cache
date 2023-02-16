@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2tTAV6a2iKzx/AdAiq/7py00GUuudLh9n2hHYgPQuE73DzW2lXbuLLZNqPEnLiMlz2VakxNsoqYLSS7hFrJsLA==",
+  "dgSpecHash": "JuI6z0VXx5g5r0vw6byEld61teuJ+YeGS5vCN5NKwTXK6YWTcDZvUCwKkjYHmDvLPSOyL5+XSTiBAulAcyjm3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
+  "projectFilePath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SMandlole\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\SMandlole\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -23,7 +23,7 @@ public partial class ppmContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySql("server=10.11.50.58;port=3306;user=tempuser;password=Admin@1234;database=ppm_db", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql"));
+        => optionsBuilder.UseMySql("server=10.11.50.58;port=3306;user=tempuser;password=Admin@1234;database=ppm1_db", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -37,12 +37,18 @@ public partial class ppmContext : DbContext
 
             entity.ToTable("employees");
 
+            entity.HasIndex(e => e.RoleId, "RoleId");
+
             entity.Property(e => e.EmployeeId).ValueGeneratedNever();
             entity.Property(e => e.Address).HasMaxLength(150);
             entity.Property(e => e.Email).HasMaxLength(100);
             entity.Property(e => e.FirstName).HasMaxLength(50);
             entity.Property(e => e.LastName).HasMaxLength(50);
             entity.Property(e => e.MobileNumber).HasMaxLength(15);
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Employees)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("employees_ibfk_1");
         });
 
         modelBuilder.Entity<Project>(entity =>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.UI\\PPM.UI.csproj": {}
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.UI\\PPM.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj",
         "projectName": "PPM.DAL",
-        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\PPM.DOMAIN.csproj": {
+    "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\PPM.DOMAIN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
+        "projectUniqueName": "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
         "projectName": "PPM.DOMAIN",
-        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
+        "projectPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\obj\\",
+        "outputPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -103,14 +103,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj"
               },
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj"
               },
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
         "projectName": "PPM.IEntityOperation",
-        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.IEntityOperation\\PPM.IEntityOperation.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.IEntityOperation\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.IEntityOperation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -186,11 +186,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj"
               },
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj"
               }
             }
           }
@@ -230,14 +230,14 @@
         }
       }
     },
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj",
         "projectName": "PPM.MODEL",
-        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -303,14 +303,14 @@
         }
       }
     },
-    "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.UI\\PPM.UI.csproj": {
+    "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.UI\\PPM.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.UI\\PPM.UI.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.UI\\PPM.UI.csproj",
         "projectName": "PPM.UI",
-        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.UI\\PPM.UI.csproj",
+        "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.UI\\PPM.UI.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.UI\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -325,14 +325,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DAL\\PPM.DAL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DAL\\PPM.DAL.csproj"
               },
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\PPM.DOMAIN.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.DOMAIN\\PPM.DOMAIN.csproj"
+              "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\PPM.DOMAIN.csproj": {
+                "projectPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.DOMAIN\\PPM.DOMAIN.csproj"
               },
-              "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj": {
-                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj"
+              "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj"
               }
             }
           }

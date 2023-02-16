@@ -12,3 +12,17 @@ c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.MODEL\obj\Debug\net7.0\refint\
 c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.pdb
 c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.genruntimeconfig.cache
 c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.MODEL\obj\Debug\net7.0\ref\PPM.MODEL.dll
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\bin\Debug\net7.0\PPM.MODEL.deps.json
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\bin\Debug\net7.0\PPM.MODEL.runtimeconfig.json
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\bin\Debug\net7.0\PPM.MODEL.dll
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\bin\Debug\net7.0\PPM.MODEL.pdb
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.csproj.AssemblyReference.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.AssemblyInfoInputs.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.AssemblyInfo.cs
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.csproj.CoreCompileInputs.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.dll
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\refint\PPM.MODEL.dll
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.pdb
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\PPM.MODEL.genruntimeconfig.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.MODEL\obj\Debug\net7.0\ref\PPM.MODEL.dll

@@ -15,3 +15,20 @@ C:\Users\SMandlole\Desktop\Entity Framework 1\PPM.DAL\obj\Debug\net7.0\ref\PPM.D
 c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.DAL\bin\Debug\net7.0\PPM.MODEL.dll
 c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.DAL\bin\Debug\net7.0\PPM.MODEL.pdb
 c:\Users\SMandlole\Desktop\Entity Framework 1\PPM.DAL\obj\Debug\net7.0\PPM.DAL.csproj.CopyComplete
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.csproj.AssemblyReference.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.AssemblyInfoInputs.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.AssemblyInfo.cs
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.csproj.CoreCompileInputs.cache
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.dll
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\refint\PPM.DAL.dll
+c:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.pdb
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\bin\Debug\net7.0\PPM.DAL.deps.json
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\bin\Debug\net7.0\PPM.DAL.runtimeconfig.json
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\bin\Debug\net7.0\PPM.DAL.dll
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\bin\Debug\net7.0\PPM.DAL.pdb
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\bin\Debug\net7.0\PPM.MODEL.dll
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\bin\Debug\net7.0\PPM.MODEL.pdb
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.csproj.CopyComplete
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\PPM.DAL.genruntimeconfig.cache
+C:\Users\SMandlole\Desktop\Entity Framework_6\PPM.DAL\obj\Debug\net7.0\ref\PPM.DAL.dll

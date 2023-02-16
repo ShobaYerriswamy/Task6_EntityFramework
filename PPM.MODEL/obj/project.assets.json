@@ -2028,11 +2028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj",
+      "projectUniqueName": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj",
       "projectName": "PPM.MODEL",
-      "projectPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\PPM.MODEL.csproj",
+      "projectPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\PPM.MODEL.csproj",
       "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SMandlole\\Desktop\\Entity Framework 1\\PPM.MODEL\\obj\\",
+      "outputPath": "C:\\Users\\SMandlole\\Desktop\\Entity Framework_6\\PPM.MODEL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"

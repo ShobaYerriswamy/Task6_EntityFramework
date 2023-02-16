@@ -61,7 +61,8 @@ namespace UserInterface
                                 Console.WriteLine(" Enter 3 to List Project By Id ");
                                 Console.WriteLine(" Enter 4 Add Employee to Project ");
                                 Console.WriteLine(" Enter 5 Delete Employee from Project ");
-                                Console.WriteLine(" Enter 6 to Delete Project ");
+                                Console.WriteLine(" Enter 6 to View Employees in Project ");
+                                Console.WriteLine(" Enter 7 to Delete Project ");
                                 Console.WriteLine(" Enter \"x\" to Exit to Main Menu ");
                                 Console.WriteLine("");
 
@@ -254,15 +255,15 @@ namespace UserInterface
                                                 int EMPId = Convert.ToInt32(Console.ReadLine());
                                                 if (employeeDal.ExistsInEmployeeTable (EMPId))
                                                 {
-                                                    // if (!projectDal.IfExistsInProjectsWithEmployees(PROJId,EMPId ))
-                                                    // {
+                                                    if (!projectDal.IfExistsInProjectsWithEmployees(PROJId,EMPId ))
+                                                    {
                                                         projectManager.AddEmployeesToProject(PROJId, EMPId);
                                                         Console.WriteLine("Succesfully Added..");
-                                                    // }
-                                                    // else
-                                                    // {
-                                                    //     Console.WriteLine("Employee Already Exists With this Id");
-                                                    // }
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine("Employee Already Exists With this Id");
+                                                    }
                                                 }
                                                 else
                                                 {
@@ -291,15 +292,15 @@ namespace UserInterface
                                             {
                                                 Console.WriteLine("Enter the Id of the Employee to Delete from Project");
                                                 int EMPId1 = Convert.ToInt32(Console.ReadLine());
-                                                // if (projectDal.IfExistsInProjectsWithEmployees(PROJId1,EMPId1 ))
-                                                // {
+                                                if (projectDal.IfExistsInProjectsWithEmployees(PROJId1,EMPId1 ))
+                                                {
                                                     projectManager.DeleteEmployeesFromProject(PROJId1,EMPId1);
                                                     Console.WriteLine("Succesfullu Deleted");
-                                                // } 
-                                                // else
-                                                // {
-                                                //     Console.WriteLine("This Employee Not Exists In Project");
-                                                // }
+                                                } 
+                                                else
+                                                {
+                                                    Console.WriteLine("This Employee Not Exists In Project");
+                                                }
                                             }
                                             else
                                             {
@@ -315,7 +316,37 @@ namespace UserInterface
                                         Console.ReadLine();
                                         break;
 
-                                    case "6":
+                                    case "6" :
+                                        try
+                                        {
+                                            Console.WriteLine("Enter the Id of the Project");
+                                            int readForId = Convert.ToInt32(Console.ReadLine());
+                                            if (projectDal.ExistsInProjectTable(readForId))
+                                            {
+                                                if (projectDal.ExistsInProjectsWithEmployeesTable(readForId))
+                                                {
+                                                    projectManager.ViewAllEmployeesInProjectById(readForId);
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("No Employee in this Project");
+                                                }
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("No Project Present with this ID");
+                                            }
+                                        }
+                                        catch
+                                        {
+                                            Console.WriteLine("ID can only in Number");
+                                        }
+                                        Console.WriteLine("Enter any key to get Main Menu");
+                                        Console.ReadLine();
+                                        break;
+
+
+                                    case "7":
                                     
                                         try
                                         {

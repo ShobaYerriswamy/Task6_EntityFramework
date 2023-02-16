@@ -132,16 +132,9 @@ public class ProjectDal
         using(ppmContext context = new ppmContext())
         {
             var employee = context.Employees.Find(employeeId);
-            if(employee != null)
-            {
-		        context.Projects.Include(x => x.Employees).FirstOrDefault(x => x.ProjectId == projectId).Employees.Remove(employee);
-	    	    context.SaveChanges();
-            }
-	        else
-            {
-                Console.WriteLine("Employee not available ");
-		    }
-        }
+            context.Projects.Include(x => x.Employees).FirstOrDefault(x => x.ProjectId == projectId).Employees.Remove(employee);
+	    	context.SaveChanges();
+        }  
     }
 
     public Boolean ExistsInProjectsWithEmployeesTable (int projectId)
@@ -163,22 +156,59 @@ public class ProjectDal
          return false;
     }
 
-    // public Boolean IfExistsInProjectsWithEmployees (int projectId, int employeeId)
-    // {
-    //     try 
-    //     {
-    //         using(ppmContext context = new ppmContext())
-    //         {
-    //             var employee = context.Employees.Find(employeeId);
-    //             var employee1 = context.Projects.Find(projectId)
-    //         }    
-    //     }
-    //     catch(Exception e)
-    //     {
-    //         Console.WriteLine("OOPs, something went wrong.\n" + e);
-    //     }
-    //      return false;
-    // }
+    public Boolean IfExistsInProjectsWithEmployees (int projectId, int employeeId)
+    {
+        try 
+        {
+            using(ppmContext context = new ppmContext())
+            {
+                var employee = context.Employees.Find(employeeId);
+                var employeeList = context.Projects.Include(p => p.Employees).ThenInclude(x => x.Role).Where(x => x.ProjectId == projectId).First().Employees.ToList();
+                if (employeeList.Contains(employee))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }    
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine("OOPs, something went wrong.\n" + e);
+        }
+         return false;
+    }
+
+    public void DisplayAllEmployeesInProjectById (int projectId)
+    {
+        try
+        {
+            using(ppmContext context = new ppmContext())
+            {
+                var employeeList = context.Projects.Include(p => p.Employees).ThenInclude(x => x.Role).Where(x => x.ProjectId == projectId).First().Employees.ToList();
+                employeeList.OrderBy(x => x.RoleId);
+                if (employeeList.Count > 0)
+                {
+                    Console.WriteLine($"Name of the Project - {context.Projects.Find(projectId).ProjectName}");
+                    foreach (var employee in employeeList)
+                    {
+                        Console.WriteLine($" Employee Id - {employee.EmployeeId}, Employee Name - {employee.FirstName}, Role Nmae - {employee.Role.RoleName}");
+                    }
+                }
+                else 
+                {
+                    Console.WriteLine("No Employees in this Project");
+                }
+                
+            }
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine("OOPs, something went wrong.\n" + e);
+        }
+    }
 
 }
 
